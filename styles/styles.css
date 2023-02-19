@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+html .main_block,
+body .main_block {
+  height: 100%;
+  background-color: whitesmoke;
+}
+html .main_block h2,
+body .main_block h2 {
+  margin-left: 45px;
+}
+html .main_block h6,
+body .main_block h6 {
+  margin-left: 45px;
+}
+html .main_block .reports_block,
+body .main_block .reports_block {
+  margin: auto;
+  width: 93%;
+  height: 87%;
+  display: flex;
+  flex-direction: row;
+}
+html .main_block .reports_block .ft_col,
+body .main_block .reports_block .ft_col {
+  width: 70%;
+}
+html .main_block .reports_block .ft_col div:nth-child(2n+1),
+body .main_block .reports_block .ft_col div:nth-child(2n+1) {
+  background-color: #dedcdc;
+}
+html .main_block .reports_block .ft_col .link,
+body .main_block .reports_block .ft_col .link {
+  width: 100%;
+  height: 6.6%;
+}
+html .main_block .reports_block .ft_col .link a,
+body .main_block .reports_block .ft_col .link a {
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px dotted black;
+}
+html .main_block .reports_block .ft_col .link .popup,
+body .main_block .reports_block .ft_col .link .popup {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+html .main_block .reports_block .ft_col .link .popup img,
+body .main_block .reports_block .ft_col .link .popup img {
+  width: 100%;
+}
+html .main_block .reports_block .ft_col .link .show_popup,
+body .main_block .reports_block .ft_col .link .show_popup {
+  display: block;
+}
+html .main_block .reports_block .sd_col,
+body .main_block .reports_block .sd_col {
+  width: 13%;
+}
+html .main_block .reports_block .sd_col .db_button,
+body .main_block .reports_block .sd_col .db_button {
+  width: 100%;
+  height: 6.6%;
+  padding: 4% 22%;
+}
+html .main_block .reports_block .sd_col .db_button span,
+body .main_block .reports_block .sd_col .db_button span {
+  padding: 0 5px 2px;
+  border-radius: 15px;
+  background-color: #198754;
+  color: white;
+}
+html .main_block .reports_block .td_col,
+body .main_block .reports_block .td_col {
+  width: 17%;
+}
+html .main_block .reports_block .td_col .ld_button,
+body .main_block .reports_block .td_col .ld_button {
+  width: 100%;
+  height: 6.6%;
+  padding: 3% 15%;
+}
+html .main_block .reports_block .td_col .ld_button span,
+body .main_block .reports_block .td_col .ld_button span {
+  padding: 0 5px 2px;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+}
+html .main_block .reports_block .td_col .ld_button a,
+body .main_block .reports_block .td_col .ld_button a {
+  text-decoration: none;
+  margin: 8%;
+}
+/*# sourceMappingURL=styles.css.map */

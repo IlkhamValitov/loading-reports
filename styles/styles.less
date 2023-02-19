@@ -1,0 +1,81 @@
+html, body{
+  margin: 0;
+  height: 100%;
+  .main_block{
+    height: 100%;
+    background-color: whitesmoke;
+    h2{
+      margin-left: 45px;
+    }
+    h6{
+      margin-left: 45px;
+    }
+    .reports_block{
+      margin: auto;
+      width: 93%;
+      height: 87%;
+      display: flex;
+      flex-direction: row;
+      .ft_col{
+        width: 70%;
+        div:nth-child(2n+1){
+          background-color: #dedcdc;
+        }
+        .link{
+          width: 100%;
+          height: 6.6%;
+          a{
+            margin: 2%;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border-bottom: 2px dotted black;
+          }
+          .popup{
+            display: none;
+            position: relative;
+            width: 100%;
+            img{
+              width: 100%;
+            }
+          }
+          .show_popup{
+            display: block;
+          }
+        }
+      }
+      .sd_col{
+        width: 13%;
+        .db_button{
+          width: 100%;
+          height: 6.6%;
+          padding: 4% 22%;
+          span{
+            padding: 0 5px 2px;
+            border-radius: 15px;
+            background-color: #198754;
+            color: white;
+          }
+        }
+      }
+      .td_col{
+        width: 17%;
+        .ld_button{
+          width: 100%;
+          height: 6.6%;
+          padding: 3% 15%;
+          span{
+            padding: 0 5px 2px;
+            border-radius: 15px;
+            background-color: red;
+            color: white;
+          }
+          a{
+            text-decoration: none;
+            margin: 8%;
+          }
+        }
+      }
+    }
+  }
+}
